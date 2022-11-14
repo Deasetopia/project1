@@ -1,0 +1,19 @@
+@app.callback(
+    Output(component_id='my-output', component_property='children'),
+    Input(component_id='my-input', component_property='value')
+)
+
+The component_id and component_property keywords are optional 
+(there are only two arguments for each of those objects)
+
+
+https://stackoverflow.com/questions/65960506/plotly-dash-plotting-networkx-in-python
+
+# Creating the multiple bar charts
+https://plotly.com/python/bar-charts/
+
+# Plotly express does not support subplots
+https://plotly.com/python/subplots/
+
+# All plotly go & express
+https://plotly.com/python-api-reference/
